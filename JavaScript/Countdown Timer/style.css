@@ -5,11 +5,36 @@
 }
 
 body {
-    background-image: url(./Images/New\ Years.jpg);
-    font-family: 'Antonio', sans-serif;
-    color:aliceblue;
-    margin: 0;
-    background-size: cover;
-    height: 98vh;
-    background-position: center center;
+  background-image: url(./Images/New\ Years.jpg);
+  background-position: center center;
+  font-family: "Antonio", sans-serif;
+  color: beige;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  background-size: cover;
+  height: 98vh;
+}
+
+h1 {
+  font-size: 6rem;
+}
+
+.countdown-container {
+  display: flex;
+}
+
+.big-text {
+  font-size: 6rem;
+  line-height: 1;
+  margin: 0 2rem;
+}
+
+.countdown-element {
+  text-align: center;
+}
+
+.countdown-element span {
+  font-size: 1.5rem;
 }
