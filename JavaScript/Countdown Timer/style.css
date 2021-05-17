@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Antonio:wght@300;600&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+    background-image: url(./Images/New\ Years.jpg);
+    font-family: 'Antonio', sans-serif;
+    margin: 0;
+    background-size: cover;
+    height: 98vh;
+    background-position: center center;
+}

@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Antonio:wght@300;600&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+    font-family: 'Antonio', sans-serif;
+    margin: 0;
+}
